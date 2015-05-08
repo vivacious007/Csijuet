@@ -1,0 +1,656 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Student Council</title>
+    <link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/right_click_disable.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/teams.css">
+<script>
+	$(document).ready(function() {
+        $('#secp').click(function() {
+                $('.secp').show();
+				$('.coodp').hide();
+				$('.volp').hide();
+				$('.secw').hide();
+				$('.coodw').hide();
+				$('.volw').hide();
+				$('.secpub').hide();
+				$('.coodpub').hide();
+				$('.volpub').hide();
+				$('.secm').hide();
+				$('.coodm').hide();
+				$('.volm').hide();
+        });
+    });
+	$(document).ready(function() {
+        $('#coodp').click(function() {
+                $('.coodp').show();
+				$('.secp').hide();
+				$('.volp').hide();
+				$('.secw').hide();
+				$('.coodw').hide();
+				$('.volw').hide();
+				$('.secpub').hide();
+				$('.coodpub').hide();
+				$('.volpub').hide();
+				$('.secm').hide();
+				$('.coodm').hide();
+				$('.volm').hide();
+        });
+    });
+	$(document).ready(function() {
+        $('#volp').click(function() {
+                $('.volp').show();
+				$('.coodp').hide();
+				$('.secp').hide();
+				$('.secw').hide();
+				$('.coodw').hide();
+				$('.volw').hide();
+				$('.secpub').hide();
+				$('.coodpub').hide();
+				$('.volpub').hide();
+				$('.secm').hide();
+				$('.coodm').hide();
+				$('.volm').hide();
+        });
+    });	
+	
+	$(document).ready(function() {
+        $('#secw').click(function() {
+                $('.secw').show();
+				$('.coodp').hide();
+				$('.volp').hide();
+				$('.secp').hide();
+				$('.coodw').hide();
+				$('.volw').hide();
+				$('.secpub').hide();
+				$('.coodpub').hide();
+				$('.volpub').hide();
+				$('.secm').hide();
+				$('.coodm').hide();
+				$('.volm').hide();
+        });
+    });
+	$(document).ready(function() {
+        $('#coodw').click(function() {
+                $('.coodw').show();
+				$('.coodp').hide();
+				$('.volp').hide();
+				$('.secw').hide();
+				$('.secp').hide();
+				$('.volw').hide();
+				$('.secpub').hide();
+				$('.coodpub').hide();
+				$('.volpub').hide();
+				$('.secm').hide();
+				$('.coodm').hide();
+				$('.volm').hide();
+        });
+    });
+	$(document).ready(function() {
+        $('#volw').click(function() {
+                $('.volw').show();
+				$('.coodp').hide();
+				$('.volp').hide();
+				$('.secw').hide();
+				$('.coodw').hide();
+				$('.secp').hide();
+				$('.secpub').hide();
+				$('.coodpub').hide();
+				$('.volpub').hide();
+				$('.secm').hide();
+				$('.coodm').hide();
+				$('.volm').hide();
+        });
+    });
+		
+	$(document).ready(function() {
+        $('#secpub').click(function() {
+                $('.secpub').show();
+				$('.coodp').hide();
+				$('.volp').hide();
+				$('.secw').hide();
+				$('.coodw').hide();
+				$('.volw').hide();
+				$('.secp').hide();
+				$('.coodpub').hide();
+				$('.volpub').hide();
+				$('.secm').hide();
+				$('.coodm').hide();
+				$('.volm').hide();
+        });
+    });
+	$(document).ready(function() {
+        $('#coodpub').click(function() {
+                $('.coodpub').show();
+				$('.coodp').hide();
+				$('.volp').hide();
+				$('.secw').hide();
+				$('.coodw').hide();
+				$('.volw').hide();
+				$('.secpub').hide();
+				$('.secp').hide();
+				$('.volpub').hide();
+				$('.secm').hide();
+				$('.coodm').hide();
+				$('.volm').hide();
+        });
+    });
+	$(document).ready(function() {
+        $('#volpub').click(function() {
+                $('.volpub').show();
+				$('.coodp').hide();
+				$('.volp').hide();
+				$('.secw').hide();
+				$('.coodw').hide();
+				$('.volw').hide();
+				$('.secpub').hide();
+				$('.coodpub').hide();
+				$('.secp').hide();
+				$('.secm').hide();
+				$('.coodm').hide();
+				$('.volm').hide();
+        });
+    });
+	
+		
+	$(document).ready(function() {
+        $('#secm').click(function() {
+                $('.secm').show();
+				$('.coodp').hide();
+				$('.volp').hide();
+				$('.secw').hide();
+				$('.coodw').hide();
+				$('.volw').hide();
+				$('.secpub').hide();
+				$('.coodpub').hide();
+				$('.volpub').hide();
+				$('.secp').hide();
+				$('.coodm').hide();
+				$('.volm').hide();
+        });
+    });
+	$(document).ready(function() {
+        $('#coodm').click(function() {
+                $('.coodm').show();
+				$('.coodp').hide();
+				$('.volp').hide();
+				$('.secw').hide();
+				$('.coodw').hide();
+				$('.volw').hide();
+				$('.secpub').hide();
+				$('.coodpub').hide();
+				$('.volpub').hide();
+				$('.secm').hide();
+				$('.secp').hide();
+				$('.volm').hide();
+        });
+    });
+	$(document).ready(function() {
+        $('#volm').click(function() {
+                $('.volm').show();
+				$('.coodp').hide();
+				$('.volp').hide();
+				$('.secw').hide();
+				$('.coodw').hide();
+				$('.volw').hide();
+				$('.secpub').hide();
+				$('.coodpub').hide();
+				$('.volpub').hide();
+				$('.secm').hide();
+				$('.coodm').hide();
+				$('.secp').hide();
+        });
+    });
+</script>
+</head>
+
+<body>
+<center>
+    <header class="header">
+	    <div class="gse">
+		<h1 class="PageHeading">Student Council</h1>
+		<hr class="line1"/>
+		<hr class="line2"/>
+		<figure class="caption-effect" style="margin:5% 0% 0% 30%;">
+		<img src="t/1.jpg" >
+			<figcaption>
+				<h2 style="margin-left:15px;"><span style="margin-left:10px;">General</span><br/>Secretary</h2>
+				<p>Abhinav Kumar<br/>Pande</p>
+			</figcaption>
+		</figure>
+		<figure class="caption-effect" style="margin:5% 0% 0% 0%;">
+		<img src="t/2.jpg" >
+		<figcaption>
+				<h2 style="margin-left:15px;color:#ffffff;">
+					<span style="margin-left:28px;">Joint</span><br/><span style="margin-left:10px;">General</span><br/>Secretary
+				</h2>
+				<p>Prakrati Bansal</p>
+			</figcaption>
+		</figure>
+	    </div>
+    </header>
+</center>
+    <section class="demo">
+
+        <dl class="list nigiri">
+            <dt>PROGRAMMING CLUB</dt>
+            <dd><a href="#abc" id ="secp">SECRETARY</a></dd>
+            <dd><a href="#abc" id="coodp">COORDINATORS</a></dd>
+            <dd><a href="#abc" id="volp">VOLUNTEERS</a></dd>
+            
+        </dl>
+
+        <dl class="list maki">
+            <dt>WEBTECH CLUB</dt>
+            <dd><a href="#abc"  id ="secw">SECRETARY</a></dd>
+            <dd><a href="#abc" id ="coodw">Coordinators</a></dd>
+            <dd><a href="#abc" id ="volw">Volunteers</a></dd>
+            
+        </dl>
+
+        <dl class="list sashimi">
+            <dt>PUBLICATION CLUB</dt>
+            <dd><a href="#abc" id ="secpub">SECRETARY</a></dd>
+            <dd><a href="#abc" id="coodpub">Coordinators</a></dd>
+            <dd><a href="#abc" id="volpub">Volunteers</a></dd>
+           
+        </dl>
+		 <dl class="list sai">
+            <dt>MULTIMEDIA CLUB</dt>
+            <dd><a href="#abc" id="secm">SECRETARY</a></dd>
+            <dd><a href="#abc" id="coodm">Coordinators</a></dd>
+            <dd><a href="#abc" id="volm">Volunteers</a></dd>
+           
+        </dl>
+
+        <a href="#" class="toggle">Toggle</a>
+		<div class="prog">
+		    <div class="secp" style="display:none;"  id="abc">
+			<h1 class="headin"  style="margin:38.5% 0% 0% 6.5%;">Secretaries</h1>
+			<center>
+			<figure class="caption-effect" style="margin:5% 0% 0% 35%;">
+			<img src="t/3.jpg" width="150" height="150"  >
+				<figcaption>
+							<h2 style="margin-left:15px;">Secretary</h2>
+							<p>Pulkit<br>Sharma<br><br/>Programming Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 0%;">
+			<img src="t/4.jpg" width="150" height="150"  >
+			<figcaption>
+							<h2 style="margin-left:25px;"><span style="margin-left:22px;">Joint</span><br/>Secretary</h2>
+							<p>Satyam<br>Gupta<br><br/>Programming Club</p>
+				</figcaption>
+			</figure>
+			</center>
+			</div>
+			
+			<div class="coodp"  style="display:none;" id="abc">
+			<h1 class="headin" style="margin:42.5% 0% 0% 1%;">Coordinators</h1>
+			<center>
+			<figure class="caption-effect" style="margin:5% 0% 0% 13%;">
+			<img src="t/12.jpg" width="150" height="150">
+				<figcaption>
+							<h2>Coordinator</h2>
+							<p>Shreshtha<br>Saxena<br><br/>Programming Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 8%;">
+			<img src="t/13.jpg" width="150" height="150">
+				<figcaption>
+							<h2>Coordinator</h2>
+							<p>Mayank<br>Sharma<br><br/>Programming Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 8%;">
+			<img src="t/14.jpg" width="150" height="150">
+				<figcaption>
+							<h2>Coordinator</h2>
+							<p>Divyanshi<br>Sharma<br><br/>Programming Club</p>
+				</figcaption>
+			</figure>
+			</center>
+			</div>
+			<div class="volp" style="display:none;" id="abc">
+			<h1 class="headin"   style="margin:43.5% 0% 0% 2%;">Volunteers</h1>
+			<center>
+			<figure class="caption-effect" style="margin:5% 0% 0% 6%;">
+			<img src="t/24.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Varun<br>Singh<br><br/>Programming Club</p>
+				</figcaption>
+			</figure> 
+			<figure class="caption-effect" style="margin:5% 0% 0% 3%;">
+			<img src="t/25.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Divya<br>Shah<br><br/>Programming Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 3%;">
+			<img src="t/26.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Gargi<br>Sawney<br><br/>Programming Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 3%;">
+			<img src="t/27.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Ayush<br>Tripathi<br><br/>Programming Club</p>
+				</figcaption>
+			</figure>
+			</center>
+			</div>
+		  </div>
+		  
+		  <div class="secw" style="display:none;">
+			<h1 class="headin" style="margin:45% 0% 0% -12%;">Secretaries and Website Incharge</h1>
+			<center>
+			<figure class="caption-effect" style="margin:5% 0% 0% 18%;">
+			<img src="t/5.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:15px;">Secretary</h2>
+							<p>Shubham<br>Nigam<br><br/>Webtech Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 3%;">
+			<img src="t/6.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:16px;"><span style="margin-left:22px;">Joint</span><br/>Secretary</pre></h2>
+							<p>Piyush<br>Gandhi<br><br/>Webtech Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 3%;">
+			<img src="t/7.jpg" width="200" height="200">
+			<figcaption>
+							<h2 style="margin-left:20px;"><span style="margin-left:5px;">Website</span><br/>Incharge</h2>
+							<p>Priyam<br>Srivastava<br><br/>Webtech Club</p>
+				</figcaption>
+			</figure>
+			</center>
+		   </div>
+		   <div class="coodw" style="display:none;">
+		   <h1 class="headin" style="margin:44% 0% 0% 1%;">Coordinators</h1>
+		   <center>
+		   <figure class="caption-effect" style="margin:5% 0% 0% 15%;">
+			<img src="t/15.jpg" width="150" height="150" style="transform:rotateX">
+				<figcaption>
+							<h2>Coordinator</h2>
+							<p>Shikhar<br>Tandon<br><br/>Webtech Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 7%;">
+			<img src="t/16.jpg" width="150" height="150">
+				<figcaption>
+							<h2>Coordinator</h2>
+							<p>Vitul<br>Rana<br><br/>Webtech Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 7%;">
+			<img src="t/17.jpg" width="150" height="150">
+			<figcaption>
+							<h2>Coordinator</h2>
+							<p>Akshita<br>Purohit<br><br/>Webtech Club</p>
+				</figcaption>
+			</figure>
+			</center>
+		   </div>
+		   <div class="volw" style="display:none;">
+		   <h1 class="headin" style="margin:45% 0% 0% 2%;">Volunteers</h1>
+		   <figure class="caption-effect" style="margin:5% 0% 0% 6%;">
+			<img src="t/28.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Ayushi<br>Jain<br><br/>Webtech Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 3%;">
+			<img src="t/29.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Divya Prakash <br>Srivastava<br><br/>Webtech Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 3%;">
+			<img src="t/30.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Amitesh<br>Mishra<br><br/>Webtech Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 3%;">
+			<img src="t/31.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Priyanshi<br>Agarwal<br><br/>Webtech Club</p>
+				</figcaption>
+			</figure>
+		   </div>
+		   
+		   <div class="secpub" style="display:none;">
+		   	<h1 class="headin" style="margin:43.5% 0% 0% 2%;">Secretaries</h1>
+			<center>
+			<figure class="caption-effect" style="margin:5% 0% 0% 29%;">
+			<img src="t/8.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:15px;">Secretary</h2>
+							<p>Avinav<br>Varun<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 3%;">
+			<img src="t/9.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:20px;"><span style="margin-left:22px;">Joint</span><br/>Secretary</h2>
+							<p>Sarthak<br>Sharma<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+			</center>
+		   </div>
+		   <div class="coodpub" style="display:none;">
+		   <h1 class="headin" style="margin:45% 0% 0% 1%;">Coordinators</h1>
+		    <figure class="caption-effect" style="margin:5% 0% 0% 13%;">
+			<img src="t/18.jpg" width="150" height="150">
+			<figcaption>
+							<h2>Coordinator</h2>
+							<p>Aakriti <br>Khare<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 7%;">
+			<img src="t/19.jpg" width="150" height="150">
+			<figcaption>
+							<h2>Coordinator</h2>
+							<p>Vasu<br>Jain<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 7%;">
+			<img src="t/20.jpg" width="150" height="150">
+			<figcaption>
+							<h2>Coordinator</h2>
+							<p>Aditya<br>Mishra<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+		   </div>
+		   <div class="volpub" style="display:none;">
+		   <h1 class="headin" style="margin:45% 0% 0% 2%;">Volunteers</h1>
+		   <center>
+		    <figure class="caption-effect" style="margin:8% 0% 0% 6%;">
+			<img src="t/32.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Meenakshi<br>Chandra<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:8% 0% 0% 3%;">
+			<img src="t/33.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Ankita<br>Mishra<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:8% 0% 0% 3%;">
+			<img src="t/34.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Harsh<br>Samadhiya<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:8% 0% 0% 3%;">
+			<img src="t/35.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Abhishek<br>Nigam<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+			</center>
+		   </div>
+		   
+		   <div class="secm" style="display:none;">
+			<h1 class="headin" style="margin:43.5% 0% 0% 2%;">Secretaries</h1>
+			<figure class="caption-effect" style="margin:5% 0% 0% 29%;">
+			<img src="t/10.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Secretary</h2>
+							<p>Utkarsh<br>Pandey<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:5% 0% 0% 3%;">
+			<img src="t/11.jpg" width="150" height="150">
+				<figcaption>
+							<h2 style="margin-left:15px;"><span style="margin-left:27px;">Joint</span><br/>Secretary</h2>
+							<p>Isha<br>Gupta<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+		   </div>
+		   <div class="coodm" style="display:none;">
+		   <h1 class="headin" style="margin:45% 0% 0% 1%;">Coordinators</h1>
+		   <center>
+		   <figure class="caption-effect" style="margin:8% 0% 0% 14%;">
+			<img src="t/21.jpg" width="150" height="150">
+			<figcaption>
+							<h2>Coordinator</h2>
+							<p>Sankalp<br>Srivastava<br><br/>Multimedia Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:8% 0% 0% 7%;">
+			<img src="t/22.jpg" width="150" height="150">
+			<figcaption>
+							<h2>Coordinator</h2>
+							<p>Neha<br>Verma<br><br/>Multimedia Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:8% 0% 0% 7%;">
+			<img src="t/23.jpg" width="150" height="150">
+			<figcaption>
+							<h2>Coordinator</h2>
+							<p>Mili<br>Jain<br><br/>Multimedia Club</p>
+				</figcaption>
+			</figure>
+			</center>
+		   </div>
+		   <div class="volm" style="display:none;">
+		   <h1 class="headin" style="margin:45% 0% 0% 2%;">Volunteers</h1>
+		   <figure class="caption-effect" style="margin:8% 0% 0% 6%;">
+			<img src="t/36.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Shivagni<br>Rajpoot<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:8% 0% 0% 3%;">
+			<img src="t/37.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Pranay<br>Pandya<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:8% 0% 0% 3%;">
+			<img src="t/38.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Ayushi <br>Pandey<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+			<figure class="caption-effect" style="margin:8% 0% 0% 3%;">
+			<img src="t/39.jpg" width="150" height="150">
+			<figcaption>
+							<h2 style="margin-left:10px;">Volunteer</h2>
+							<p>Rishabh<br>Atray<br><br/>Publication Club</p>
+				</figcaption>
+			</figure>
+		   </div>
+		   
+    </section>
+	
+    <div class="warning">
+        
+    </div>
+
+    
+    
+    <script src="js/makisu.js"></script>
+    <script>
+
+        // The `enabled` flag will be `false` if CSS 3D isn't available
+
+        if ( $.fn.makisu.enabled ) {
+			var $sai= $( '.sai' );
+            var $sashimi = $( '.sashimi' );
+            var $nigiri = $( '.nigiri' );
+            var $maki = $( '.maki' );
+
+            // Create Makisus
+
+            $nigiri.makisu({
+                selector: 'dd',
+                overlap: 0.85,
+                speed: 1.7
+            });
+
+            $maki.makisu({
+                selector: 'dd',
+                overlap: 0.6,
+                speed: 0.85
+            });
+
+            $sashimi.makisu({
+                selector: 'dd',
+                overlap: 0.2,
+                speed: 0.5
+            });
+			$sai.makisu({
+                selector: 'dd',
+                overlap: 0.2,
+                speed: 0.5,
+            });
+
+            // Open all
+            
+            $( '.list' ).makisu( 'open' );
+
+            // Toggle on click
+
+            $( '.toggle' ).on( 'click', function() {
+                $( '.list' ).makisu( 'toggle' );
+            });
+
+            // Disable all links
+
+            $( '.demo a' ).click( function( event ) {
+                event.preventDefault();
+            });
+
+        } else {
+
+            $( '.warning' ).show();
+        }
+
+    </script>
+</body>
+</html>
